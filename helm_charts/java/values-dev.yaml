@@ -71,7 +71,7 @@ ingress:
   hosts:
     - host: eks-backend.hkgroups.publicvm.com
       paths:
-        - path: /
+        - path: /api/v1
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
