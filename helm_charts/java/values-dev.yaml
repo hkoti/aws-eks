@@ -118,7 +118,7 @@ volumes:
 volumeMounts: 
  - name: config-app
    mountPath: /application.properties
-   subPath: appliation.properties
+   subPath: application.properties
    
 
 nodeSelector: {}
