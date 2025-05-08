@@ -73,6 +73,9 @@ ingress:
       paths:
         - path: /api/v1
           pathType: Prefix
+    - paths: # Rule for ALB DNS (no host specified)
+        - path: /api/v1
+          pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
